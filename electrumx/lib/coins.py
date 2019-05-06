@@ -379,6 +379,7 @@ class BitcoinCash(BitcoinMixin, Coin):
         'bch.imaginary.cash s t',
         'electroncash.dk s t',
         'wallet.satoshiscoffeehouse.com s t',
+        'cash.theblains.org s t',
     ]
     BLOCK_PROCESSOR = block_proc.LTORBlockProcessor
 
@@ -584,6 +585,7 @@ class BitcoinCashTestnet(BitcoinTestnetMixin, Coin):
         'bch0.kister.net t s',
         'testnet.imaginary.cash t50001 s50002',
         'blackie.c3-soft.com t60001 s60002',
+        'cash-testnet.theblains.org t50003 s50004',
     ]
     BLOCK_PROCESSOR = block_proc.LTORBlockProcessor
 
